@@ -11,6 +11,15 @@
 		F46C787528FC1B3400D60BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C787428FC1B3400D60BA7 /* ContentView.swift */; };
 		F46C787728FC1B3500D60BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C787628FC1B3500D60BA7 /* Assets.xcassets */; };
 		F46C787A28FC1B3500D60BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C787928FC1B3500D60BA7 /* Preview Assets.xcassets */; };
+		F46C788328FC2DDE00D60BA7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C788228FC2DDE00D60BA7 /* Colors.xcassets */; };
+		F46C788528FC2DF000D60BA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C788428FC2DF000D60BA7 /* Images.xcassets */; };
+		F46C788B28FC307300D60BA7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C788A28FC307300D60BA7 /* WelcomeView.swift */; };
+		F46C788F28FC314700D60BA7 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C788E28FC314700D60BA7 /* Images.swift */; };
+		F46C789228FC36F700D60BA7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C789128FC36F700D60BA7 /* Colors.swift */; };
+		F46C789428FC382900D60BA7 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C789328FC382900D60BA7 /* Icons.swift */; };
+		F46C789A28FC413600D60BA7 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C789928FC413600D60BA7 /* EdgeInsets.swift */; };
+		F46C789C28FC454700D60BA7 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C789B28FC454700D60BA7 /* SignInButton.swift */; };
+		F46C789E28FC470400D60BA7 /* SingUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C789D28FC470400D60BA7 /* SingUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		F46C787428FC1B3400D60BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F46C787628FC1B3500D60BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46C787928FC1B3500D60BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F46C788228FC2DDE00D60BA7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F46C788428FC2DF000D60BA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F46C788A28FC307300D60BA7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F46C788E28FC314700D60BA7 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		F46C789128FC36F700D60BA7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F46C789328FC382900D60BA7 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		F46C789928FC413600D60BA7 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		F46C789B28FC454700D60BA7 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		F46C789D28FC470400D60BA7 /* SingUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +69,12 @@
 		F46C787128FC1B3400D60BA7 /* Olivia Wilson */ = {
 			isa = PBXGroup;
 			children = (
-				F46C787228FC1B3400D60BA7 /* Olivia_WilsonApp.swift */,
+				F46C788C28FC311700D60BA7 /* Utils */,
+				F46C788728FC2E0800D60BA7 /* Feature */,
+				F46C788628FC2DFF00D60BA7 /* Product */,
 				F46C787428FC1B3400D60BA7 /* ContentView.swift */,
-				F46C787628FC1B3500D60BA7 /* Assets.xcassets */,
+				F46C787228FC1B3400D60BA7 /* Olivia_WilsonApp.swift */,
+				F46C788028FC2D4E00D60BA7 /* Resources */,
 				F46C787828FC1B3500D60BA7 /* Preview Content */,
 			);
 			path = "Olivia Wilson";
@@ -65,6 +86,100 @@
 				F46C787928FC1B3500D60BA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F46C788028FC2D4E00D60BA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F46C788128FC2DC800D60BA7 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F46C788128FC2DC800D60BA7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F46C787628FC1B3500D60BA7 /* Assets.xcassets */,
+				F46C788228FC2DDE00D60BA7 /* Colors.xcassets */,
+				F46C788428FC2DF000D60BA7 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F46C788628FC2DFF00D60BA7 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F46C789528FC406E00D60BA7 /* Widget */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		F46C788728FC2E0800D60BA7 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F46C788828FC304C00D60BA7 /* Authencitication */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		F46C788828FC304C00D60BA7 /* Authencitication */ = {
+			isa = PBXGroup;
+			children = (
+				F46C788928FC305D00D60BA7 /* Welcome */,
+			);
+			path = Authencitication;
+			sourceTree = "<group>";
+		};
+		F46C788928FC305D00D60BA7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F46C788A28FC307300D60BA7 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F46C788C28FC311700D60BA7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F46C789028FC36CC00D60BA7 /* Extensions */,
+				F46C788D28FC312500D60BA7 /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F46C788D28FC312500D60BA7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F46C788E28FC314700D60BA7 /* Images.swift */,
+				F46C789328FC382900D60BA7 /* Icons.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F46C789028FC36CC00D60BA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F46C789128FC36F700D60BA7 /* Colors.swift */,
+				F46C789928FC413600D60BA7 /* EdgeInsets.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F46C789528FC406E00D60BA7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F46C789628FC407700D60BA7 /* Button */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		F46C789628FC407700D60BA7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F46C789B28FC454700D60BA7 /* SignInButton.swift */,
+				F46C789D28FC470400D60BA7 /* SingUpButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46C788328FC2DDE00D60BA7 /* Colors.xcassets in Resources */,
+				F46C788528FC2DF000D60BA7 /* Images.xcassets in Resources */,
 				F46C787A28FC1B3500D60BA7 /* Preview Assets.xcassets in Resources */,
 				F46C787728FC1B3500D60BA7 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46C789E28FC470400D60BA7 /* SingUpButton.swift in Sources */,
 				F46C787528FC1B3400D60BA7 /* ContentView.swift in Sources */,
+				F46C789C28FC454700D60BA7 /* SignInButton.swift in Sources */,
+				F46C789228FC36F700D60BA7 /* Colors.swift in Sources */,
+				F46C789428FC382900D60BA7 /* Icons.swift in Sources */,
+				F46C788F28FC314700D60BA7 /* Images.swift in Sources */,
+				F46C788B28FC307300D60BA7 /* WelcomeView.swift in Sources */,
+				F46C789A28FC413600D60BA7 /* EdgeInsets.swift in Sources */,
 				F46C787328FC1B3400D60BA7 /* Olivia_WilsonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +394,8 @@
 				DEVELOPMENT_TEAM = X425X55S2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olivia Wilson";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,9 +408,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ataemirkaba.Olivia-Wilson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,6 +428,8 @@
 				DEVELOPMENT_TEAM = X425X55S2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olivia Wilson";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,9 +442,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ataemirkaba.Olivia-Wilson";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
