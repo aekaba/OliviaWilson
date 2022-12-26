@@ -13,7 +13,7 @@ struct SingUpButton: View {
         Button{ } label: {
             HStack {
                 Spacer()
-                Text("Create Account")
+                Text(LocaleKeys.Auth.createAc.rawValue.locale())
                 Spacer()
             }
         }.buttonStyle(.bordered).buttonBorderShape(.roundedRectangle).controlSize(.large).accentColor(.primaryColor)

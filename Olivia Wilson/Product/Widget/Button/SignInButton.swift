@@ -15,7 +15,7 @@ struct SignInButton: View {
         } label: {
             HStack {
                 Spacer()
-                Text("Sign In")
+                Text(LocaleKeys.Auth.signIn.rawValue.locale())
                 Spacer()
             }.tint(Color.surfaceColor)
         }.buttonStyle(.borderedProminent).buttonBorderShape(.roundedRectangle).controlSize(.large).accentColor(.primaryColor).opacity(0.9)
